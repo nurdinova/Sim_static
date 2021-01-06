@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<simulate name="JEMRIS">
+   <sample name="shepp-logan" uri="sample_shepp.h5"/>
+   <RXcoilarray uri="uniform.xml"/>
+   <TXcoilarray uri="uniform.xml"/>
+   <parameter ConcomitantFields="0" EvolutionPrefix="evol" EvolutionSteps="0" RandomNoise="0"/>
+   <sequence name="tse_shepp_2" uri="tse_shepp_2.xml"/>
+   <model name="Bloch" type="CVODE"/>
+</simulate>
